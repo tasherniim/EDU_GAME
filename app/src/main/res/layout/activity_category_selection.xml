@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/category_text"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#03A9F4"
+        android:fontFamily="@font/abril_fatface"
+        android:text="SELECT YOUR CATEGORY"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#070707"
+        android:textSize="30sp" />
+
+    <ImageButton
+        android:id="@+id/alphabet_button"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_weight="1"
+        android:src="@drawable/screenshot_2024_10_30_010734"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/numbers_button"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:src="@drawable/screenshot_2024_10_30_010805"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/colours_button"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:src="@drawable/screenshot_2024_10_30_010304"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+
+</LinearLayout>
